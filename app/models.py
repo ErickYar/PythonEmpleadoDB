@@ -18,4 +18,3 @@ class Empleado(models.Model):
     def __str__(self):
         return self.nombre+' '+self.apellidos
 
-
