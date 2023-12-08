@@ -1,0 +1,20 @@
+{% extends 'app/layout.html' %}
+
+{% block titulo %}
+Editar Empleados
+{% endblock %}
+
+
+{% block principal %}
+<h2>Actualizar Empleado</h2>
+<p>form.as_p</p>
+<form action="post">
+    <div class="container">
+        {% csrf_toke %}
+        <table>
+            {{ form.as_p }}
+        </table>
+        <button type="submit">Actualizar</button>
+    </div>
+</form>
+{% endblock %}
