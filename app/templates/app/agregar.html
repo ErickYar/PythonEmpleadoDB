@@ -4,13 +4,12 @@
 Nuevo Empleados
 {% endblock %}
 
-
 {% block principal %}
 <h2>Nuevo Empleado</h2>
 <p>form.as_table</p>
-<form action="post">
+<form method="post">
     <div class="container">
-        {% csrf_toke %}
+        {% csrf_token %}
         <table>
             {{ form.as_table }}
         </table>

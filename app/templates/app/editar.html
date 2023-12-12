@@ -4,13 +4,12 @@
 Editar Empleados
 {% endblock %}
 
-
 {% block principal %}
 <h2>Actualizar Empleado</h2>
 <p>form.as_p</p>
-<form action="post">
+<form method="post">
     <div class="container">
-        {% csrf_toke %}
+        {% csrf_token %}
         <table>
             {{ form.as_p }}
         </table>
