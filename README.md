@@ -1,5 +1,5 @@
 # PythonEmpleados
-- este proyecto es para ingresar la relacion de empleados.
+- este proyecto es para ingresar la relación de empleados.
 - El proyecto se realizo netamente en PYTHON with DJANGO  
 
 
@@ -9,7 +9,7 @@ Ese es mi inicio en **PYTHYON**
 
 este proyecto  se necesita install '**_PYTHON_**'
 
-## Comando para utilizar en "Django" se porne el comando 
+## Comando para utilizar en "Django" se poner el comando  
 
 - '_pip install django_'
 
@@ -17,7 +17,7 @@ este proyecto  se necesita install '**_PYTHON_**'
 - Es con el comando "_django-admin startproject AppWebInicio_"
 
 ## Para crear una "Aplicación" en PYTHON  
-- Es con el comanndo "_django-admin startapp app_"
+- Es con el comando "_django-admin startapp app_"
   - Este comando se poner dentro de la carpeta "AppWebInicio"
 
 
